@@ -7,14 +7,14 @@ namespace DoesItBlend
     /// <summary>
     /// A class representing a bananna
     /// </summary>
-    public class Banana : Fruit
+    public class GreenBanana : Banana
     {
         /// Blends the banana
         /// </summary>
         /// <returns>The result of blending the banana</returns>
         public override string Blend()
         {
-            return "yellow mush";
+            return "lumps";
         }
     }
 }
